@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Técmovel</title>
+</head>
+<body>
+<header class="header">
+<nav class="nav">
+<div class="logo">Técmovel</div>
+
+  <ul class="menu">
+  
+  <li class="menu-item">
+  <a href="#">Veiculos</a>
+  <div class="mega-menu">
+
+  <div class="mega-container">
+    <div class="cars">
+      <div class="car">
+        <a href="./pages/ofertas.html">
+        <img src="./img/carrobranco.svg.avif" alt="">
+        </a>
+        <h3>Modelo S</h3>
+        <span>Descobrir</span>
+        <span>Encomendar</span>
+      </div>
+
+      <div class="car">
+        <a href="./pages/ofertas.html">
+        <img src="./img/carroprataescuro.svg.avif" alt="">
+        </a>
+        <h3>Modelo 3</h3>
+        <span>Descobrir</span>
+        <span>Encomendar</span>
+      </div>
+
+      <div class="car">
+        <a href="./pages/ofertas.html">
+        <img src="./img/carroprata.svg.avif" alt="">
+        </a>
+        <h3>Modelo Y</h3>
+        <span>Descobrir</span>
+        <span>Encomendar</span>
+      </div>
+
+      <div class="car">
+        <a href="./pages/ofertas.html">
+        <img src="./img/carrovermelho.svg.avif" alt="">
+        </a>
+        <h3>Modelo Y</h3>
+        <span>Descobir</span>
+        <span>Encomendar</span>
+      </div>
+
+    </div>
+  </div>
+</div>
+</li>
+
+  <li><a href="./pages/ofertas.html">Ofertas</a></li>
+  <li><a href="./pages/sobre.html">Sobre</a></li>
+  <li><a href="./pages/contato.html">Contato</a></li>
+
+  </ul>
+
+  <div class="right">
+   <img src="./icons/ajuda.svg.svg" alt="">
+   <img src="./icons/linguagem.svg.svg"  alt="">
+   <img src="./icons/login.svg.svg" alt="">
+  </div>
+
+  <div class="hamburguer" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+
+  </nav>
+</header>
+
+<main>
+
+<section class="slider">
+
+<div class="slides">
+
+
+<div class="slide">
+<img src="./img/carro-pista2.img.jpg" alt="">
+<div class="conteudo">
+<h1>Seu próximo veículo está <span>aqui</span></h1>
+
+<div class="botoes">
+<button class="btn1">Buscar Veículos</button>
+<button class="btn2">Fale conosco</button>
+</div>
+</div>
+</div>
+
+<div class="slide">
+  <img src="./img/carro-terra.img.jpg" alt="">
+  <div class="conteudo">
+  <h1>Seu próximo veículo está <span>aqui</span></h1>
+  
+  <div class="botoes">
+  <button class="btn1">Buscar Veículos</button>
+  <button class="btn2">Fale conosco</button>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<div class="dotsSlider">
+  <span class="dot active"></span>
+  <span class="dot"></span>
+</div>
+
+<div class="botoes">
+<button class="prev"><img src="./img/prev.svg" alt=""></button>
+<button class="next"><img src="./img/next.svg" alt=""></button>
+</div>
+
+</section>
+
+<section class="cardsSection">
+
+<div class="cards-container">
+
+<div class="cards">
+
+<div class="card card1">
+<div class="card-content">
+<span>Sedã do Esporte</span>
+<div class="card-footer"></div>
+<h2>Modelo 3</h2>
+
+<div class="botoes">
+<button class="btn1">Encomenda agora
+</button>
+</div>
+</div>
+</div>
+
+<div class="card card2">
+<div class="card-content">
+<span>SUV de tamanho médio</span>
+<h2>Modelo W</h2>
+
+<div class="botoes">
+<button class="btn1">Encomenda agora</button>
+</div>
+</div>
+</div>
+
+<div class="card card3">
+<div class="card-content">
+<span>SUV de luxo</span>
+<h2>Modelo S</h2>
+
+<div class="botoes">
+<button class="btn1">Encomenda agora</button>
+</div>
+</div>
+</div>
+
+<div class="card card4">
+<div class="card-content">
+<span>Modelo utilitário</span>
+<h2>Modelo Padrão</h2>
+
+<div class="botoes">
+<button class="btn1">Encomenda agora</button>
+</div>
+</div>
+</div>
+
+<div class="card card5">
+<div class="card-content">
+<span>Sedã do Luxo</span>
+<h2>Modelo 4</h2>
+
+<div class="botoes">
+<button class="btn1">Encomenda agora</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+  <!-- SETAS -->
+  <button class="cardPrev">❮</button>
+  <button class="cardNext">❯</button>
+
+  <!-- DOTS -->
+  <div class="cardDots">
+    <span class="cardDot active"></span>
+    <span class="cardDot"></span>
+    <span class="cardDot"></span>
+    <span class="cardDot"></span>
+    <span class="cardDot"></span>
+  </div>
+ 
+</section>
+
+<section class="infoCards">
+
+<div class="infoCard">
+<div class="infoText">
+<h2>Ofertas atuais</h2>
+<p>Explore por um tempo limitado em veículos</p>
+<button class="btn-card">
+<img src="./icons/seta.svg" alt="">
+Saiba Mais
+</button>
+</div>
+<div class="infoImg">
+<img src="./img/archivio-automobile--nVf99MmguE-unsplash.jpg" alt="">
+</div>
+</div>
+
+<div class="infoCard">
+<div class="infoText">
+<h2>Heróis Brasileiros</h2>
+<p>Descontos especiais para profissionais essenciais: saúde, segurança, educação e estudantes.</p>
+<button class="btn-card"> 
+<img src="./icons/seta.svg" alt="">
+Saiba Mais
+</button>
+</div>
+<div class="infoImg">
+<img src="./img/erik-mclean-99SBnxQGO9I-unsplash.jpg" alt="">
+</div>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</main>
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- LOGO + TEXTO -->
+    <div class="footer-col">
+      <div class="footer-logo">
+        <img src="./icons/carro.svg" alt="">
+        <span>Técmovel</span>
+      </div>
+      <p>
+        Sua concessionária de confiança.<br>
+        Veículos seminovos e novos com as melhores condições do mercado.
+      </p>
+    </div>
+
+    <!-- NAVEGAÇÃO -->
+    <div class="footer-col">
+      <h3>Navegação</h3>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Estoque</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTATO -->
+    <div class="footer-col">
+      <h3>Contato</h3>
+
+      <div class="footer-item">
+        <img src="./icons/endereco.svg" alt="">
+        <span>Av. Brasil, 1500 - Centro, São Paulo - SP</span>
+      </div>
+
+      <div class="footer-item">
+        <img src="./icons/telefone.svg" alt="">
+        <span>(11) 99999-9999</span>
+      </div>
+
+      <div class="footer-item">
+        <img src="./icons/email.svg" alt="">
+        <span>contato@tecmovel.com.br</span>
+      </div>
+    </div>
+
+    <!-- HORÁRIO -->
+    <div class="footer-col">
+      <h3>Horário</h3>
+
+      <div class="footer-item">
+        <img src="./icons/hora.svg" alt="">
+        <span>Seg - Sex: 8h às 18h</span>
+      </div>
+
+      <div class="footer-item">
+        <img src="./icons/hora.svg" alt="">
+        <span>Sáb: 8h às 13h</span>
+      </div>
+
+      <div class="footer-item">
+        <img src="./icons/hora.svg" alt="">
+        <span>Dom: Fechado</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LINHA + COPYRIGHT -->
+  <div class="footer-bottom">
+    <p>© 2026 Técmovel. Todos os direitos reservados.</p>
+  </div>
+
+</footer>
+
+
+</body>
+</html>
