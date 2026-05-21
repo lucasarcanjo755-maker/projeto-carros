@@ -612,6 +612,8 @@ object-fit: cover;/*a imagem preenche tudo,nao distorce e corta o excesso*/
 
   .banner-texto h2 {
     font-size: 32px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
