@@ -622,7 +622,7 @@ object-fit: cover;/*a imagem preenche tudo,nao distorce e corta o excesso*/
   margin: 0;
   position: relative;
   width: 100%;
-  height: 85vh; /* 🔥 ocupa quase a tela */
+  height: 80vh; /* 🔥 ocupa quase a tela */
   overflow: hidden;
   margin-bottom: 60px;
   display: flex;
@@ -729,11 +729,6 @@ object-fit: cover;/*a imagem preenche tudo,nao distorce e corta o excesso*/
   color: #111;
 }
 
-/* SEÇÃO */
-
-.ofertas h2 {
-  margin-bottom: 30px;
-}
 
 /* GRID */
 .grid-carros {
